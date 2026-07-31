@@ -1,20 +1,6 @@
 [
     {
         "id": 1,
-        "title": "Dinner",
-        "amount": 350,
-        "category": "Food",
-        "date": "2026-07-31"
-    },
-    {
-        "id": 2,
-        "title": "Lunch",
-        "amount": 200,
-        "category": "Food",
-        "date": "2026-07-31"
-    },
-    {
-        "id": 3,
         "title": "Lunch",
         "amount": 200,
         "category": "Food",
