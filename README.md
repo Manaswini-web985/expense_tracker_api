@@ -25,18 +25,23 @@ A REST API built using Flask to manage personal expenses. The API allows users t
 ```
 expense_tracker_api/
 │
-├── README.md
-├── AI_NOTES.md
-├── requirements.txt
-├── expenses.json
+├── images/
+│   ├── postman-post.png
+│   ├── postman-get.png
+│   └── postman-total.png
 │
 ├── src/
 │   ├── main.py
 │   ├── routes.py
 │   └── storage.py
 │
-└── tests/
-    └── test_api.py
+├── tests/
+│   └── test_api.py
+│
+├── README.md
+├── AI_NOTES.md
+├── requirements.txt
+└── expenses.json
 ```
 
 ## Installation
@@ -85,6 +90,22 @@ http://127.0.0.1:5000/
 ```bash
 pytest
 ```
+
+## API Testing
+
+The API was tested using Postman.
+
+### Add Expense (POST)
+
+![Add Expense](images/postman-post.png)
+
+### View All Expenses (GET)
+
+![Get Expenses](images/postman-get.png)
+
+### Calculate Total Expenses
+
+![Total Expenses](images/postman-total.png)
 
 ## API Endpoints
 
